@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <h1 class="logo">Snap</h1>
+        <input
+          type="checkbox"
+          name="nav-toggle"
+          class="nav-toggle"
+          id="nav-toggle"
+        />
+        <nav class="main-nav">
+          <div class="menu-wrapper">
+            <ul class="main-menu">
+              <li class="expendable">
+                <a href="#"
+                  >Feature<img src="images/icon-arrow-down.svg" alt="" class=""
+                /></a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#"
+                      ><img src="images/icon-todo.svg" alt="" /><span
+                        >Todo List</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/icon-calendar.svg" alt="" /><span
+                        >Calender</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/icon-reminders.svg" alt="" /><span
+                        >Reminders</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/icon-planning.svg" alt="" />
+                      <span>Planning</span></a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="expendable">
+                <a href="#"
+                  >Company<img src="images/icon-arrow-down.svg" alt="" class=""
+                /></a>
+                <ul class="sub-menu">
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+            <ul class="auth">
+              <li>
+                <a href="#">Login</a>
+              </li>
+              <li>
+                <a href="#">Register</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section" id="hero-section">
+        <div class="container">
+          <div class="grid">
+            <div class="col img-col">
+              <img
+                src="images/image-hero-mobile.png"
+                alt=""
+                class="img-mobile"
+              />
+              <img
+                src="images/image-hero-desktop.png"
+                class="img-desktop"
+                alt=""
+              />
+            </div>
+            <div class="col content-col">
+              <h2 class="hero-heading">
+                Make <br />
+                remote work
+              </h2>
+              <p class="hero-para">
+                Get your team in sync, no matter your location. Streamline
+                processes, create team rituals, and watch productivity soar.
+              </p>
+              <a href="#" class="hero-cta">Learn more</a>
+              <ul class="client-logos">
+                <li>
+                  <img src="images/client-audiophile.svg" alt="" />
+                </li>
+                <li>
+                  <img src="images/client-databiz.svg" alt="" />
+                </li>
+                <li>
+                  <img src="images/client-maker.svg" alt="" />
+                </li>
+                <li>
+                  <img src="images/client-meet.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Muhammad Rafique</a>.
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
