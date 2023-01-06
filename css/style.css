@@ -127,7 +127,7 @@ h2 {
   padding-inline: 1.4rem;
 }
 header {
-  padding-inline: 1rem;
+  padding-inline: 2.5rem;
 }
 .main-header {
   display: flex;
@@ -389,7 +389,7 @@ ul.auth li a:visited {
   ul.auth li a:link,
   ul.auth li a:visited {
     margin-bottom: 0;
-    padding: 0.8rem 1rem;
+    padding: 0.5rem 1.2rem;
   }
 }
 ul.auth li a:link:hover,
